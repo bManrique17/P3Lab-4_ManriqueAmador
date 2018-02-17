@@ -64,7 +64,9 @@ void Parqueo::crearMatriz(){
 	}
 }	
 
-Parqueo::~Parqueo(){/*
+Parqueo::~Parqueo(){
+	cout<<"Se elimino"<<endl;
+	/*
 	for(int i=0 ; i!=cantidadN ; i++){
 		for(int j=0 ; j!=cantidadM ; j++){
 			for(int k=0 ; k!=cantidadZ ; k++){

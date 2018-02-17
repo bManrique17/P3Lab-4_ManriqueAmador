@@ -40,7 +40,8 @@ int main(){
 		cout<<"\nDesea ejecutar de nuevo [S/N]: ";
 		cin>>respuesta;
 	}while(respuesta == 's' || respuesta == 'S');
-
+//	delete CarroActual;
+//	delete ParqueoActual;
 	return 0;
 }
 
